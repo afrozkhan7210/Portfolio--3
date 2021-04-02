@@ -1,0 +1,59 @@
+h1{
+    display: flex;
+    justify-content: center;
+    color:cyan;
+}
+
+*{
+    font-family: Arial;
+}
+
+.header{
+    border: solid;
+    font-family: Arial;
+    background-color: #000000;
+    display: flex;
+    justify-content: space-between;
+}
+
+.grid{
+    display: flex;
+    /* flex-wrap: wrap; */
+    background-color: #000000;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+
+.footer{
+    border: 4px solid black;
+    display: flex;
+    background-color: black;
+    justify-content: space-evenly;
+}
+
+p , h2{
+    border: 3px solid greenyellow;
+    color: cyan;
+    text-align: center;
+    background-color: #000000;
+}
+
+.Menu{
+    display: flex;
+    
+    background-color: cyan;
+}
+.items{
+   
+    
+    border: 3px solid;
+}
+
+body{
+    background:linear-gradient(red,blue)
+}
+
+div{
+color: greenyellow;
+
+}
